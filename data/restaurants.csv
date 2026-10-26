@@ -1,0 +1,121 @@
+restaurant_id,name,cuisine,locality,address,latitude,longitude,rating,cost_for_two,opens_at,closes_at,is_veg
+1,Lucknowi House,Biryani,Santacruz,"Shop 24, College Lane, Santacruz, Mumbai",19.086506,72.834456,3.3,800,07:00,23:00,False
+2,La Roma,Italian,Ghatkopar,"Shop 36, Nehru Road, Ghatkopar, Mumbai",19.086192,72.90212,3.0,850,08:00,23:30,False
+3,Pure Leaf,Healthy,Fort,"Shop 25, Hill Road, Fort, Mumbai",18.928425,72.836279,4.5,800,07:00,22:00,False
+4,Golden Garden,Chinese,Chembur,"Shop 1, Carter Road, Chembur, Mumbai",19.048849,72.89915,4.3,550,12:00,23:30,False
+5,Lean Box,Healthy,Lower Parel,"Shop 14, Station Road, Lower Parel, Mumbai",19.002604,72.829571,4.1,800,10:00,22:30,False
+6,Konkan Spice,Coastal,Borivali,"Shop 11, LBS Marg, Borivali, Mumbai",19.228077,72.857903,4.4,1050,10:00,23:00,False
+7,Dilli Tadka,North Indian,Andheri West,"Shop 17, Station Road, Andheri West, Mumbai",19.142869,72.824817,3.8,600,07:00,22:30,False
+8,Dilli Junction,North Indian,Colaba,"Shop 28, Station Road, Colaba, Mumbai",18.909556,72.821024,3.8,900,07:00,23:30,False
+9,Konkan Katta,Coastal,Santacruz,"Shop 32, Tilak Road, Santacruz, Mumbai",19.073141,72.834509,3.6,1100,12:00,23:00,False
+10,Biryani Handi,Biryani,Juhu,"Shop 18, MG Road, Juhu, Mumbai",19.110037,72.826068,3.8,800,12:00,23:30,False
+11,Amritsari Zaika,North Indian,Juhu,"Shop 12, Shivaji Path, Juhu, Mumbai",19.11217,72.822982,3.7,400,07:00,23:00,False
+12,Pind Darbar,North Indian,Powai,"Shop 28, MG Road, Powai, Mumbai",19.109606,72.906057,2.8,700,10:00,23:00,False
+13,Cake Box,Desserts,Mulund,"Shop 1, Mahakali Caves Road, Mulund, Mumbai",19.174804,72.942927,3.6,350,12:00,22:00,True
+14,Jade Bowl,Chinese,Chembur,"Shop 36, Mahakali Caves Road, Chembur, Mumbai",19.048499,72.898993,4.1,350,07:00,22:00,False
+15,Big Point,Burgers,Mulund,"Shop 17, Main Market, Mulund, Mumbai",19.174269,72.945584,4.0,500,07:00,22:00,False
+16,Lucky Bowl,Chinese,Khar,"Shop 36, Link Road, Khar, Mumbai",19.078155,72.841997,4.1,750,12:00,23:00,False
+17,Big Barn,Burgers,Worli,"Shop 16, Mahakali Caves Road, Worli, Mumbai",19.014067,72.814345,4.3,600,10:00,23:00,False
+18,Urban Table,Cafe,Matunga,"Shop 22, Hiranandani Gardens, Matunga, Mumbai",19.019204,72.862095,3.5,750,10:00,23:30,False
+19,Punjab Darbar,North Indian,Dadar,"Shop 26, Mahakali Caves Road, Dadar, Mumbai",19.011559,72.846331,4.4,800,08:00,23:00,False
+20,Pind Darbar,North Indian,Malad West,"Shop 30, Carter Road, Malad West, Mumbai",19.191624,72.841421,3.0,700,08:00,23:00,False
+21,Morning Lab,Cafe,Bandra West,"Shop 40, Linking Road, Bandra West, Mumbai",19.058777,72.822155,3.3,700,08:00,23:30,False
+22,Morning Lab,Cafe,Matunga,"Shop 23, Link Road, Matunga, Mumbai",19.034002,72.86131,3.9,1100,08:00,23:00,False
+23,Bun Shack,Burgers,Fort,"Shop 2, SV Road, Fort, Mumbai",18.940716,72.833673,4.2,550,11:00,23:00,False
+24,Pind Kitchen,North Indian,Colaba,"Shop 34, Link Road, Colaba, Mumbai",18.910027,72.807876,3.3,400,08:00,23:00,False
+25,Golden Bowl,Chinese,Chembur,"Shop 35, Ambedkar Chowk, Chembur, Mumbai",19.047283,72.903741,3.1,600,10:00,23:00,False
+26,Zaffran Kebabs,Mughlai,Mulund,"Shop 21, SV Road, Mulund, Mumbai",19.166682,72.946869,4.1,550,07:00,23:00,True
+27,Big Joint,Burgers,Mulund,"Shop 27, Tilak Road, Mulund, Mumbai",19.173635,72.949921,4.0,500,08:00,23:30,False
+28,Via Forno,Italian,Malad West,"Shop 10, Ambedkar Chowk, Malad West, Mumbai",19.182383,72.850187,4.1,1150,10:00,23:30,False
+29,Tapri Wala,Street Food,Colaba,"Shop 5, JP Road, Colaba, Mumbai",18.907786,72.820056,3.5,350,07:00,22:00,False
+30,Hyderabadi Pot,Biryani,Worli,"Shop 4, Ambedkar Chowk, Worli, Mumbai",19.016189,72.81931,3.8,700,07:00,23:30,False
+31,Chowpatty Junction,Street Food,Chembur,"Shop 32, JP Road, Chembur, Mumbai",19.044908,72.89634,3.3,250,08:00,23:30,False
+32,Jade House,Chinese,Mulund,"Shop 25, Link Road, Mulund, Mumbai",19.177113,72.942433,4.2,800,08:00,23:00,False
+33,Biryani Mahal,Biryani,Colaba,"Shop 26, MG Road, Colaba, Mumbai",18.909589,72.808356,3.6,750,10:00,23:30,False
+34,Konkan Kinara,Coastal,Worli,"Shop 9, Main Market, Worli, Mumbai",19.010853,72.812554,3.8,600,08:00,23:00,True
+35,Biryani Pot,Biryani,Khar,"Shop 10, Nehru Road, Khar, Mumbai",19.071736,72.842892,3.2,700,12:00,22:00,False
+36,Morning Grind,Cafe,Lower Parel,"Shop 2, Hiranandani Gardens, Lower Parel, Mumbai",19.002024,72.826433,3.3,950,07:00,22:30,False
+37,Bean Wave,Cafe,Goregaon,"Shop 27, Nehru Road, Goregaon, Mumbai",19.173304,72.853646,3.8,1050,07:00,23:00,False
+38,Kolkata House,Biryani,Ghatkopar,"Shop 24, Main Market, Ghatkopar, Mumbai",19.085272,72.905033,4.1,750,12:00,23:00,False
+39,Pure Bowl,Healthy,Kanjurmarg,"Shop 11, LBS Marg, Kanjurmarg, Mumbai",19.127661,72.932595,3.7,550,12:00,22:00,False
+40,Amritsari Zaika,North Indian,Kurla,"Shop 27, Link Road, Kurla, Mumbai",19.066073,72.887127,3.9,550,08:00,23:30,False
+41,Casa Italia,Italian,Borivali,"Shop 32, Linking Road, Borivali, Mumbai",19.237151,72.854341,4.1,1000,12:00,22:00,False
+42,Mangalorean Tide,Coastal,Lower Parel,"Shop 1, Hill Road, Lower Parel, Mumbai",19.001548,72.833527,4.3,750,07:00,22:30,False
+43,Jade Express,Chinese,Worli,"Shop 34, Nehru Road, Worli, Mumbai",19.020402,72.821343,4.1,500,10:00,23:00,False
+44,Mainland Express,Chinese,Andheri East,"Shop 15, Station Road, Andheri East, Mumbai",19.113299,72.862752,3.1,750,08:00,22:00,False
+45,Mangalorean Bay,Coastal,Khar,"Shop 27, Nehru Road, Khar, Mumbai",19.074391,72.833863,4.2,1300,07:00,23:30,False
+46,Bean Room,Cafe,Kanjurmarg,"Shop 10, Linking Road, Kanjurmarg, Mumbai",19.130822,72.925816,4.5,1000,12:00,23:30,False
+47,Mainland Express,Chinese,Chembur,"Shop 23, Gandhi Nagar, Chembur, Mumbai",19.05311,72.894062,4.0,350,11:00,22:00,False
+48,Anand Tiffins,South Indian,Lower Parel,"Shop 18, Gandhi Nagar, Lower Parel, Mumbai",18.992661,72.837901,4.2,200,08:00,23:00,True
+49,Cake Tooth,Desserts,Borivali,"Shop 10, Ambedkar Chowk, Borivali, Mumbai",19.225221,72.858018,4.3,650,12:00,22:30,True
+50,Madras Mess,South Indian,Mulund,"Shop 11, Carter Road, Mulund, Mumbai",19.177111,72.93557,4.6,400,11:00,23:00,True
+51,Trattoria Cucina,Italian,Vikhroli,"Shop 35, JP Road, Vikhroli, Mumbai",19.118624,72.932806,4.3,1350,11:00,22:00,False
+52,Choco Studio,Desserts,Khar,"Shop 28, Main Market, Khar, Mumbai",19.066872,72.829527,4.2,300,12:00,22:00,True
+53,Lucky House,Chinese,Bhandup,"Shop 18, Station Road, Bhandup, Mumbai",19.136643,72.944903,3.4,600,07:00,22:30,False
+54,Kolkata House,Biryani,Powai,"Shop 24, Hill Road, Powai, Mumbai",19.11089,72.909928,4.2,700,12:00,23:00,False
+55,Pind Kitchen,North Indian,Andheri West,"Shop 33, Station Road, Andheri West, Mumbai",19.139379,72.835458,3.9,450,11:00,23:00,False
+56,Chowpatty Chaat,Street Food,Kurla,"Shop 18, College Lane, Kurla, Mumbai",19.068221,72.88937,4.2,150,07:00,23:30,False
+57,Via Napoli,Italian,Andheri West,"Shop 29, Station Road, Andheri West, Mumbai",19.143919,72.82776,3.5,1300,07:00,23:30,False
+58,Chowpatty Gully,Street Food,Sion,"Shop 2, SV Road, Sion, Mumbai",19.038431,72.858505,4.5,300,12:00,23:00,False
+59,Lucknowi Darbar,Biryani,Colaba,"Shop 12, Station Road, Colaba, Mumbai",18.905006,72.815124,3.1,550,07:00,23:30,False
+60,Dilli Darbar,North Indian,Dadar,"Shop 6, Mahakali Caves Road, Dadar, Mumbai",19.015844,72.854763,3.4,800,07:00,22:00,False
+61,Nawabi Pot,Biryani,Kurla,"Shop 21, College Lane, Kurla, Mumbai",19.06548,72.886724,3.8,900,08:00,23:30,False
+62,Big Barn,Burgers,Powai,"Shop 31, Tilak Road, Powai, Mumbai",19.110354,72.905947,4.5,300,11:00,23:00,False
+63,Burger Factory,Burgers,Goregaon,"Shop 40, Linking Road, Goregaon, Mumbai",19.159589,72.84983,4.3,700,08:00,23:30,False
+64,Punjab Tadka,North Indian,Colaba,"Shop 22, Hiranandani Gardens, Colaba, Mumbai",18.899224,72.810479,3.8,400,07:00,23:00,False
+65,Anand Bhavan,South Indian,Santacruz,"Shop 33, SV Road, Santacruz, Mumbai",19.087279,72.847809,4.0,200,10:00,23:00,True
+66,Shahi Express,Biryani,Kurla,"Shop 6, Station Road, Kurla, Mumbai",19.072596,72.892464,3.9,550,11:00,22:30,False
+67,Dragon House,Chinese,Ghatkopar,"Shop 37, JP Road, Ghatkopar, Mumbai",19.093413,72.901826,3.9,600,11:00,23:30,False
+68,Mainland Express,Chinese,Santacruz,"Shop 38, Gandhi Nagar, Santacruz, Mumbai",19.085487,72.841569,3.7,350,08:00,23:00,False
+69,Bun Barn,Burgers,Vikhroli,"Shop 34, MG Road, Vikhroli, Mumbai",19.104127,72.924839,3.8,600,08:00,23:30,True
+70,Anand Corner,South Indian,Kurla,"Shop 13, LBS Marg, Kurla, Mumbai",19.078776,72.887002,3.3,300,08:00,22:30,True
+71,Sweet Box,Desserts,Bhandup,"Shop 26, Carter Road, Bhandup, Mumbai",19.148654,72.931602,4.1,450,08:00,23:30,True
+72,Little Cucina,Italian,Ghatkopar,"Shop 34, Ambedkar Chowk, Ghatkopar, Mumbai",19.089732,72.912849,3.3,1200,08:00,23:00,False
+73,Via Forno,Italian,Vikhroli,"Shop 25, Nehru Road, Vikhroli, Mumbai",19.108315,72.927124,3.4,1350,10:00,23:00,False
+74,Cake Cloud,Desserts,Worli,"Shop 12, Nehru Road, Worli, Mumbai",19.014089,72.815324,3.9,650,11:00,22:00,True
+75,Juhu Wala,Street Food,Kurla,"Shop 35, MG Road, Kurla, Mumbai",19.072817,72.881819,4.4,250,07:00,23:30,False
+76,Lucknowi Pot,Biryani,Bandra West,"Shop 2, Shivaji Path, Bandra West, Mumbai",19.060054,72.828481,4.0,400,10:00,23:00,False
+77,Zaffran Mahal,Mughlai,Khar,"Shop 16, Shivaji Path, Khar, Mumbai",19.065045,72.836238,3.9,550,12:00,23:00,False
+78,Juhu Junction,Street Food,Worli,"Shop 2, Gandhi Nagar, Worli, Mumbai",19.022771,72.822631,3.7,300,11:00,23:00,False
+79,Punjab Kitchen,North Indian,Sion,"Shop 14, Main Market, Sion, Mumbai",19.046055,72.861338,3.2,700,07:00,22:00,False
+80,Pind Darbar,North Indian,Bhandup,"Shop 17, Link Road, Bhandup, Mumbai",19.140548,72.936802,4.2,850,10:00,22:30,True
+81,Urban Room,Cafe,Sion,"Shop 2, LBS Marg, Sion, Mumbai",19.038168,72.867388,3.4,1000,07:00,22:00,False
+82,Third Grind,Cafe,Dadar,"Shop 1, Main Market, Dadar, Mumbai",19.010273,72.844328,3.9,750,07:00,23:30,False
+83,Nawabi Mahal,Biryani,Kurla,"Shop 30, Hill Road, Kurla, Mumbai",19.072876,72.883482,3.5,600,07:00,23:00,False
+84,Udupi Tiffins,South Indian,Mulund,"Shop 13, Main Market, Mulund, Mumbai",19.18002,72.934984,4.4,300,08:00,23:00,True
+85,Khau Junction,Street Food,Vile Parle,"Shop 7, Link Road, Vile Parle, Mumbai",19.103921,72.843249,3.6,150,12:00,22:30,False
+86,Bella Forno,Italian,Fort,"Shop 36, Linking Road, Fort, Mumbai",18.926668,72.837421,3.9,1400,08:00,23:30,False
+87,Golden Garden,Chinese,Kurla,"Shop 5, Link Road, Kurla, Mumbai",19.074161,72.888085,4.3,750,11:00,23:30,False
+88,Grill Joint,Burgers,Kurla,"Shop 24, Tilak Road, Kurla, Mumbai",19.078461,72.889694,4.2,650,12:00,22:30,False
+89,Shalimar Darbar,Mughlai,Powai,"Shop 6, MG Road, Powai, Mumbai",19.121681,72.913687,3.9,800,07:00,23:00,False
+90,Sagar Cafe,South Indian,Malad West,"Shop 28, Hiranandani Gardens, Malad West, Mumbai",19.18333,72.853915,3.3,450,12:00,23:30,True
+91,Tapri Chaat,Street Food,Colaba,"Shop 37, Ambedkar Chowk, Colaba, Mumbai",18.908902,72.812339,4.5,300,11:00,23:30,False
+92,Hyderabadi Mahal,Biryani,Lower Parel,"Shop 32, Link Road, Lower Parel, Mumbai",18.993972,72.825163,3.5,700,08:00,22:00,True
+93,Sagar Mess,South Indian,Goregaon,"Shop 33, Shivaji Path, Goregaon, Mumbai",19.159839,72.852276,4.6,350,08:00,23:00,True
+94,Lahori Darbar,North Indian,Sion,"Shop 38, College Lane, Sion, Mumbai",19.046725,72.863731,3.8,650,08:00,23:00,False
+95,Amritsari Tadka,North Indian,Lower Parel,"Shop 39, Link Road, Lower Parel, Mumbai",18.999217,72.836914,4.0,500,07:00,23:00,False
+96,Mumbai Wala,Street Food,Kanjurmarg,"Shop 33, Mahakali Caves Road, Kanjurmarg, Mumbai",19.121336,72.935522,4.3,250,11:00,22:00,False
+97,Lucknowi Handi,Biryani,Khar,"Shop 4, JP Road, Khar, Mumbai",19.066726,72.835671,3.6,850,12:00,22:30,False
+98,Noor Darbar,Mughlai,Andheri East,"Shop 22, Hiranandani Gardens, Andheri East, Mumbai",19.107187,72.8651,3.8,900,12:00,23:30,False
+99,Amritsari Darbar,North Indian,Malad West,"Shop 26, Station Road, Malad West, Mumbai",19.181137,72.844308,4.1,750,07:00,22:00,False
+100,Coastal Kinara,Coastal,Khar,"Shop 8, Ambedkar Chowk, Khar, Mumbai",19.071638,72.828851,3.3,1100,07:00,23:30,False
+101,Little Roma,Italian,Santacruz,"Shop 21, Gandhi Nagar, Santacruz, Mumbai",19.08316,72.844052,3.0,900,07:00,22:00,False
+102,Lahori Junction,North Indian,Bandra West,"Shop 24, College Lane, Bandra West, Mumbai",19.06319,72.826073,3.9,500,10:00,23:30,False
+103,Fresh Fuel,Healthy,Ghatkopar,"Shop 8, Linking Road, Ghatkopar, Mumbai",19.092476,72.910154,4.1,650,10:00,23:00,False
+104,Anand Bhavan,South Indian,Sion,"Shop 2, Main Market, Sion, Mumbai",19.031416,72.866111,4.5,200,12:00,23:00,True
+105,Dhaba Tadka,North Indian,Sion,"Shop 19, Hill Road, Sion, Mumbai",19.031552,72.859358,4.3,650,08:00,23:30,False
+106,Shahi Handi,Biryani,Powai,"Shop 34, Link Road, Powai, Mumbai",19.115834,72.902069,3.0,750,07:00,22:00,False
+107,Lucknowi Pot,Biryani,Malad West,"Shop 28, Hiranandani Gardens, Malad West, Mumbai",19.189361,72.854598,4.2,800,10:00,23:30,False
+108,Choco Cloud,Desserts,Sion,"Shop 30, Link Road, Sion, Mumbai",19.035256,72.859708,4.4,550,07:00,23:30,True
+109,Madras Vihar,South Indian,Powai,"Shop 9, SV Road, Powai, Mumbai",19.118861,72.913247,3.7,350,07:00,23:00,True
+110,Bun Point,Burgers,Mulund,"Shop 16, LBS Marg, Mulund, Mumbai",19.180386,72.935175,4.5,450,12:00,22:30,False
+111,Chowpatty Chaat,Street Food,Khar,"Shop 23, Gandhi Nagar, Khar, Mumbai",19.069025,72.83997,4.1,150,07:00,23:00,False
+112,Juhu Junction,Street Food,Lower Parel,"Shop 38, MG Road, Lower Parel, Mumbai",18.998007,72.823338,4.4,250,12:00,23:00,False
+113,Lucknowi Mahal,Biryani,Andheri West,"Shop 19, JP Road, Andheri West, Mumbai",19.136891,72.823854,3.9,700,11:00,22:00,False
+114,Bade Nihari,Mughlai,Mulund,"Shop 31, JP Road, Mulund, Mumbai",19.179119,72.935417,4.0,950,10:00,23:00,False
+115,Kolkata Express,Biryani,Colaba,"Shop 2, Ambedkar Chowk, Colaba, Mumbai",18.905628,72.810129,4.1,550,07:00,23:30,False
+116,Amritsari Zaika,North Indian,Mulund,"Shop 11, Main Market, Mulund, Mumbai",19.178172,72.938029,3.6,750,10:00,22:30,False
+117,Urban Lab,Cafe,Matunga,"Shop 11, LBS Marg, Matunga, Mumbai",19.030239,72.851488,3.4,700,08:00,23:30,False
+118,Bombay Corner,Street Food,Khar,"Shop 8, LBS Marg, Khar, Mumbai",19.073388,72.835526,3.6,350,08:00,22:30,False
+119,Mainland House,Chinese,Bhandup,"Shop 16, Ambedkar Chowk, Bhandup, Mumbai",19.137811,72.940867,3.6,650,10:00,23:00,False
+120,Jade Express,Chinese,Goregaon,"Shop 18, JP Road, Goregaon, Mumbai",19.171583,72.853137,3.8,400,11:00,23:00,False

@@ -1,0 +1,888 @@
+item_id,restaurant_id,item_name,category,price,stock,is_veg
+1001,1,Chicken Dum Biryani,Biryani,345.0,110,False
+1002,1,Mutton Biryani,Biryani,400.0,37,False
+1003,1,Raita,Sides,60.0,68,True
+1004,1,Paneer Biryani,Biryani,250.0,32,True
+1005,1,Chicken 65,Starters,275.0,149,False
+1006,1,Veg Biryani,Biryani,250.0,57,True
+1007,1,Double Ka Meetha,Desserts,135.0,37,True
+1008,1,Mirchi Ka Salan,Sides,105.0,76,True
+1009,2,Margherita Pizza,Pizza,280.0,133,True
+1010,2,Bruschetta,Starters,175.0,120,True
+1011,2,Spaghetti Aglio Olio,Pasta,320.0,129,True
+1012,2,Chicken Alfredo,Pasta,375.0,109,False
+1013,2,Farmhouse Pizza,Pizza,375.0,33,True
+1014,2,Penne Arrabbiata,Pasta,345.0,65,True
+1015,3,Quinoa Salad Bowl,Salads,280.0,122,True
+1016,3,Acai Smoothie Bowl,Breakfast,425.0,129,True
+1017,3,Greek Salad,Salads,295.0,43,True
+1018,3,Detox Juice,Beverages,205.0,26,True
+1019,3,Paneer Protein Bowl,Bowls,320.0,25,True
+1020,3,Hummus Platter,Starters,270.0,80,True
+1021,4,Spring Rolls,Starters,185.0,79,True
+1022,4,Schezwan Fried Rice,Rice,225.0,60,True
+1023,4,Veg Manchurian,Starters,200.0,61,True
+1024,4,Chicken Fried Rice,Rice,215.0,81,False
+1025,4,Veg Hakka Noodles,Noodles,190.0,28,True
+1026,4,Dim Sum Basket,Starters,260.0,34,False
+1027,4,Chicken Hakka Noodles,Noodles,255.0,33,False
+1028,5,Greek Salad,Salads,310.0,79,True
+1029,5,Acai Smoothie Bowl,Breakfast,395.0,72,True
+1030,5,Detox Juice,Beverages,190.0,94,True
+1031,5,Grilled Chicken Bowl,Bowls,345.0,28,False
+1032,5,Millet Khichdi,Main Course,255.0,66,True
+1033,5,Quinoa Salad Bowl,Salads,335.0,115,True
+1034,5,Paneer Protein Bowl,Bowls,375.0,35,True
+1035,6,Kombdi Vade,Main Course,290.0,150,False
+1036,6,Solkadhi,Beverages,75.0,112,True
+1037,6,Chicken Sukka,Main Course,325.0,128,False
+1038,6,Surmai Fry,Seafood,360.0,43,False
+1039,6,Prawns Koliwada,Seafood,355.0,98,False
+1040,6,Bombil Fry,Seafood,310.0,103,False
+1041,6,Fish Curry Rice,Main Course,315.0,55,False
+1042,6,Neer Dosa,Breads,85.0,141,True
+1043,7,Butter Chicken,Main Course,305.0,59,False
+1044,7,Paneer Butter Masala,Main Course,255.0,40,True
+1045,7,Chole Bhature,Main Course,160.0,42,True
+1046,7,Tandoori Roti,Breads,30.0,81,True
+1047,7,Gulab Jamun,Desserts,95.0,41,True
+1048,7,Chicken Tikka,Starters,300.0,112,False
+1049,7,Dal Makhani,Main Course,200.0,84,True
+1050,7,Sweet Lassi,Beverages,80.0,32,True
+1051,7,Paneer Tikka,Starters,255.0,71,True
+1052,8,Sweet Lassi,Beverages,105.0,82,True
+1053,8,Paneer Tikka,Starters,325.0,138,True
+1054,8,Chole Bhature,Main Course,205.0,150,True
+1055,8,Paneer Butter Masala,Main Course,305.0,126,True
+1056,8,Chicken Tikka,Starters,295.0,80,False
+1057,8,Jeera Rice,Rice,150.0,30,True
+1058,8,Butter Naan,Breads,60.0,81,True
+1059,8,Butter Chicken,Main Course,325.0,133,False
+1060,8,Gulab Jamun,Desserts,90.0,139,True
+1061,9,Bombil Fry,Seafood,300.0,79,False
+1062,9,Kombdi Vade,Main Course,380.0,29,False
+1063,9,Surmai Fry,Seafood,410.0,138,False
+1064,9,Chicken Sukka,Main Course,340.0,114,False
+1065,9,Fish Curry Rice,Main Course,330.0,45,False
+1066,9,Neer Dosa,Breads,75.0,102,True
+1067,9,Solkadhi,Beverages,70.0,136,True
+1068,9,Prawns Koliwada,Seafood,365.0,38,False
+1069,10,Paneer Biryani,Biryani,250.0,114,True
+1070,10,Chicken Dum Biryani,Biryani,280.0,66,False
+1071,10,Mirchi Ka Salan,Sides,85.0,50,True
+1072,10,Mutton Biryani,Biryani,370.0,42,False
+1073,10,Veg Biryani,Biryani,215.0,33,True
+1074,10,Double Ka Meetha,Desserts,140.0,81,True
+1075,10,Raita,Sides,70.0,79,True
+1076,10,Chicken 65,Starters,305.0,138,False
+1077,10,Egg Biryani,Biryani,230.0,132,False
+1078,11,Sweet Lassi,Beverages,75.0,37,True
+1079,11,Butter Chicken,Main Course,310.0,23,False
+1080,11,Chicken Tikka,Starters,300.0,85,False
+1081,11,Chole Bhature,Main Course,185.0,123,True
+1082,11,Gulab Jamun,Desserts,70.0,20,True
+1083,11,Jeera Rice,Rice,135.0,75,True
+1084,11,Paneer Tikka,Starters,200.0,43,True
+1085,11,Tandoori Roti,Breads,30.0,76,True
+1086,11,Paneer Butter Masala,Main Course,215.0,80,True
+1087,11,Dal Makhani,Main Course,215.0,78,True
+1088,12,Paneer Butter Masala,Main Course,300.0,33,True
+1089,12,Gulab Jamun,Desserts,85.0,121,True
+1090,12,Butter Chicken,Main Course,315.0,124,False
+1091,12,Sweet Lassi,Beverages,90.0,136,True
+1092,12,Butter Naan,Breads,55.0,140,True
+1093,12,Chicken Tikka,Starters,340.0,44,False
+1094,12,Paneer Tikka,Starters,305.0,141,True
+1095,12,Tandoori Roti,Breads,30.0,53,True
+1096,12,Chole Bhature,Main Course,205.0,46,True
+1097,12,Jeera Rice,Rice,170.0,92,True
+1098,13,Blueberry Cheesecake,Pastries,210.0,44,True
+1099,13,Rasmalai,Indian Sweets,115.0,53,True
+1100,13,Brownie with Ice Cream,Desserts,200.0,138,True
+1101,13,Kulfi Falooda,Desserts,150.0,87,True
+1102,13,Mango Mastani,Shakes,150.0,59,True
+1103,13,Chocolate Truffle Cake,Cakes,445.0,118,True
+1104,13,Belgian Chocolate Shake,Shakes,215.0,77,True
+1105,14,Hot and Sour Soup,Soups,130.0,55,True
+1106,14,Veg Hakka Noodles,Noodles,200.0,36,True
+1107,14,Veg Manchurian,Starters,215.0,55,True
+1108,14,Chicken Fried Rice,Rice,225.0,118,False
+1109,14,Chicken Hakka Noodles,Noodles,215.0,130,False
+1110,14,Chilli Chicken,Starters,275.0,88,False
+1111,15,Double Smash Burger,Burgers,260.0,70,False
+1112,15,Chicken Wings,Sides,260.0,78,False
+1113,15,Classic Veg Burger,Burgers,145.0,34,True
+1114,15,Crispy Chicken Burger,Burgers,220.0,144,False
+1115,15,Loaded Nachos,Sides,165.0,78,True
+1116,15,Oreo Shake,Shakes,165.0,139,True
+1117,16,Veg Manchurian,Starters,255.0,39,True
+1118,16,Hot and Sour Soup,Soups,145.0,61,True
+1119,16,Veg Hakka Noodles,Noodles,200.0,85,True
+1120,16,Chicken Fried Rice,Rice,235.0,143,False
+1121,16,Schezwan Fried Rice,Rice,205.0,73,True
+1122,16,Dim Sum Basket,Starters,280.0,24,False
+1123,16,Chilli Chicken,Starters,255.0,97,False
+1124,16,Chicken Hakka Noodles,Noodles,280.0,23,False
+1125,16,Spring Rolls,Starters,195.0,20,True
+1126,17,Crispy Chicken Burger,Burgers,210.0,143,False
+1127,17,Double Smash Burger,Burgers,340.0,91,False
+1128,17,Classic Veg Burger,Burgers,155.0,123,True
+1129,17,Peri Peri Fries,Sides,135.0,82,True
+1130,17,Paneer Tikka Burger,Burgers,185.0,39,True
+1131,18,Cafe Latte,Coffee,160.0,130,True
+1132,18,Club Sandwich,Sandwiches,270.0,33,False
+1133,18,Chicken Croissant,Bakery,265.0,132,False
+1134,18,Avocado Toast,Breakfast,270.0,85,True
+1135,18,Belgian Waffle,Desserts,215.0,56,True
+1136,18,Iced Tea,Beverages,135.0,139,True
+1137,18,Cappuccino,Coffee,190.0,103,True
+1138,18,Blueberry Muffin,Bakery,160.0,93,True
+1139,19,Tandoori Roti,Breads,25.0,99,True
+1140,19,Butter Naan,Breads,55.0,49,True
+1141,19,Butter Chicken,Main Course,320.0,87,False
+1142,19,Jeera Rice,Rice,190.0,118,True
+1143,19,Paneer Butter Masala,Main Course,285.0,104,True
+1144,19,Chicken Tikka,Starters,305.0,33,False
+1145,19,Dal Makhani,Main Course,250.0,40,True
+1146,19,Gulab Jamun,Desserts,90.0,138,True
+1147,19,Sweet Lassi,Beverages,105.0,84,True
+1148,19,Chole Bhature,Main Course,170.0,150,True
+1149,19,Paneer Tikka,Starters,315.0,74,True
+1150,20,Gulab Jamun,Desserts,85.0,36,True
+1151,20,Chole Bhature,Main Course,195.0,130,True
+1152,20,Dal Makhani,Main Course,195.0,69,True
+1153,20,Paneer Butter Masala,Main Course,305.0,94,True
+1154,20,Paneer Tikka,Starters,265.0,125,True
+1155,20,Jeera Rice,Rice,145.0,147,True
+1156,20,Butter Chicken,Main Course,385.0,63,False
+1157,20,Sweet Lassi,Beverages,90.0,108,True
+1158,20,Chicken Tikka,Starters,300.0,38,False
+1159,21,Iced Tea,Beverages,155.0,113,True
+1160,21,Cappuccino,Coffee,155.0,105,True
+1161,21,Belgian Waffle,Desserts,210.0,89,True
+1162,21,Club Sandwich,Sandwiches,245.0,76,False
+1163,21,Cold Brew,Coffee,225.0,72,True
+1164,21,Cafe Latte,Coffee,185.0,21,True
+1165,21,Chicken Croissant,Bakery,220.0,128,False
+1166,21,Avocado Toast,Breakfast,315.0,112,True
+1167,21,Blueberry Muffin,Bakery,155.0,127,True
+1168,22,Cappuccino,Coffee,195.0,149,True
+1169,22,Blueberry Muffin,Bakery,145.0,37,True
+1170,22,Avocado Toast,Breakfast,340.0,101,True
+1171,22,Cafe Latte,Coffee,235.0,88,True
+1172,22,Belgian Waffle,Desserts,215.0,73,True
+1173,22,Club Sandwich,Sandwiches,250.0,39,False
+1174,23,Peri Peri Fries,Sides,110.0,108,True
+1175,23,Oreo Shake,Shakes,185.0,95,True
+1176,23,Crispy Chicken Burger,Burgers,195.0,22,False
+1177,23,Chicken Wings,Sides,250.0,50,False
+1178,23,Paneer Tikka Burger,Burgers,175.0,56,True
+1179,23,Loaded Nachos,Sides,195.0,77,True
+1180,23,Classic Veg Burger,Burgers,175.0,121,True
+1181,24,Paneer Tikka,Starters,260.0,70,True
+1182,24,Gulab Jamun,Desserts,85.0,38,True
+1183,24,Dal Makhani,Main Course,175.0,104,True
+1184,24,Butter Chicken,Main Course,260.0,138,False
+1185,24,Jeera Rice,Rice,125.0,95,True
+1186,24,Butter Naan,Breads,45.0,139,True
+1187,24,Tandoori Roti,Breads,30.0,99,True
+1188,24,Chicken Tikka,Starters,240.0,59,False
+1189,25,Veg Hakka Noodles,Noodles,180.0,126,True
+1190,25,Dim Sum Basket,Starters,320.0,131,False
+1191,25,Veg Manchurian,Starters,230.0,48,True
+1192,25,Hot and Sour Soup,Soups,155.0,108,True
+1193,25,Chicken Hakka Noodles,Noodles,270.0,50,False
+1194,25,Schezwan Fried Rice,Rice,230.0,39,True
+1195,25,Chicken Fried Rice,Rice,255.0,31,False
+1196,25,Spring Rolls,Starters,180.0,25,True
+1197,25,Chilli Chicken,Starters,235.0,29,False
+1198,26,Shahi Paneer,Main Course,230.0,143,True
+1199,26,Phirni,Desserts,115.0,107,True
+1200,26,Rumali Roti,Breads,35.0,23,True
+1201,27,Paneer Tikka Burger,Burgers,185.0,120,True
+1202,27,Crispy Chicken Burger,Burgers,205.0,25,False
+1203,27,Chicken Wings,Sides,215.0,141,False
+1204,27,Peri Peri Fries,Sides,130.0,100,True
+1205,27,Classic Veg Burger,Burgers,150.0,138,True
+1206,27,Loaded Nachos,Sides,190.0,41,True
+1207,27,Oreo Shake,Shakes,175.0,105,True
+1208,27,Double Smash Burger,Burgers,325.0,56,False
+1209,28,Margherita Pizza,Pizza,330.0,127,True
+1210,28,Penne Arrabbiata,Pasta,355.0,89,True
+1211,28,Chicken Alfredo,Pasta,390.0,115,False
+1212,28,Spaghetti Aglio Olio,Pasta,305.0,59,True
+1213,28,Garlic Bread,Sides,180.0,78,True
+1214,28,Pepperoni Pizza,Pizza,480.0,83,False
+1215,28,Tiramisu,Desserts,255.0,42,True
+1216,28,Bruschetta,Starters,240.0,79,True
+1217,28,Farmhouse Pizza,Pizza,405.0,40,True
+1218,29,Sev Puri,Chaat,75.0,24,True
+1219,29,Misal Pav,Main Course,105.0,80,True
+1220,29,Ragda Pattice,Chaat,90.0,47,True
+1221,29,Vada Pav,Snacks,35.0,20,True
+1222,29,Pani Puri,Chaat,60.0,49,True
+1223,29,Cutting Chai,Beverages,20.0,65,True
+1224,29,Pav Bhaji,Main Course,170.0,80,True
+1225,29,Bombay Sandwich,Snacks,100.0,69,True
+1226,30,Veg Biryani,Biryani,210.0,101,True
+1227,30,Chicken 65,Starters,275.0,125,False
+1228,30,Paneer Biryani,Biryani,285.0,53,True
+1229,30,Raita,Sides,70.0,82,True
+1230,30,Double Ka Meetha,Desserts,120.0,74,True
+1231,30,Mirchi Ka Salan,Sides,100.0,148,True
+1232,30,Egg Biryani,Biryani,255.0,26,False
+1233,30,Chicken Dum Biryani,Biryani,280.0,131,False
+1234,30,Mutton Biryani,Biryani,365.0,105,False
+1235,31,Bombay Sandwich,Snacks,75.0,103,True
+1236,31,Sev Puri,Chaat,65.0,69,True
+1237,31,Dabeli,Snacks,40.0,132,True
+1238,31,Pav Bhaji,Main Course,160.0,126,True
+1239,31,Vada Pav,Snacks,35.0,114,True
+1240,31,Pani Puri,Chaat,55.0,76,True
+1241,31,Misal Pav,Main Course,105.0,107,True
+1242,31,Cutting Chai,Beverages,25.0,128,True
+1243,32,Schezwan Fried Rice,Rice,270.0,46,True
+1244,32,Spring Rolls,Starters,220.0,32,True
+1245,32,Chicken Hakka Noodles,Noodles,255.0,56,False
+1246,32,Chilli Chicken,Starters,320.0,127,False
+1247,32,Dim Sum Basket,Starters,300.0,103,False
+1248,32,Veg Hakka Noodles,Noodles,195.0,111,True
+1249,32,Hot and Sour Soup,Soups,160.0,119,True
+1250,32,Chicken Fried Rice,Rice,240.0,131,False
+1251,32,Veg Manchurian,Starters,210.0,42,True
+1252,33,Mirchi Ka Salan,Sides,100.0,35,True
+1253,33,Mutton Biryani,Biryani,390.0,104,False
+1254,33,Veg Biryani,Biryani,265.0,83,True
+1255,33,Chicken 65,Starters,255.0,133,False
+1256,33,Raita,Sides,60.0,49,True
+1257,33,Egg Biryani,Biryani,280.0,51,False
+1258,34,Solkadhi,Beverages,60.0,115,True
+1259,35,Mutton Biryani,Biryani,345.0,109,False
+1260,35,Chicken Dum Biryani,Biryani,265.0,26,False
+1261,35,Double Ka Meetha,Desserts,125.0,129,True
+1262,35,Raita,Sides,55.0,64,True
+1263,35,Veg Biryani,Biryani,260.0,69,True
+1264,35,Egg Biryani,Biryani,250.0,119,False
+1265,36,Belgian Waffle,Desserts,240.0,46,True
+1266,36,Club Sandwich,Sandwiches,245.0,129,False
+1267,36,Avocado Toast,Breakfast,360.0,110,True
+1268,36,Cafe Latte,Coffee,185.0,69,True
+1269,36,Cold Brew,Coffee,245.0,27,True
+1270,36,Chicken Croissant,Bakery,270.0,136,False
+1271,36,Blueberry Muffin,Bakery,150.0,82,True
+1272,36,Cappuccino,Coffee,165.0,50,True
+1273,36,Iced Tea,Beverages,180.0,79,True
+1274,37,Cafe Latte,Coffee,220.0,124,True
+1275,37,Cold Brew,Coffee,260.0,28,True
+1276,37,Belgian Waffle,Desserts,215.0,119,True
+1277,37,Cappuccino,Coffee,220.0,136,True
+1278,37,Iced Tea,Beverages,155.0,41,True
+1279,37,Chicken Croissant,Bakery,255.0,109,False
+1280,37,Blueberry Muffin,Bakery,175.0,86,True
+1281,37,Club Sandwich,Sandwiches,285.0,20,False
+1282,37,Avocado Toast,Breakfast,310.0,127,True
+1283,38,Chicken Dum Biryani,Biryani,295.0,121,False
+1284,38,Paneer Biryani,Biryani,260.0,26,True
+1285,38,Double Ka Meetha,Desserts,140.0,64,True
+1286,38,Chicken 65,Starters,240.0,48,False
+1287,38,Mirchi Ka Salan,Sides,90.0,94,True
+1288,38,Raita,Sides,65.0,117,True
+1289,38,Veg Biryani,Biryani,265.0,54,True
+1290,39,Grilled Chicken Bowl,Bowls,315.0,26,False
+1291,39,Acai Smoothie Bowl,Breakfast,365.0,74,True
+1292,39,Quinoa Salad Bowl,Salads,260.0,20,True
+1293,39,Greek Salad,Salads,250.0,58,True
+1294,39,Detox Juice,Beverages,175.0,32,True
+1295,39,Millet Khichdi,Main Course,255.0,63,True
+1296,39,Hummus Platter,Starters,225.0,137,True
+1297,40,Chicken Tikka,Starters,280.0,107,False
+1298,40,Chole Bhature,Main Course,185.0,31,True
+1299,40,Gulab Jamun,Desserts,80.0,36,True
+1300,40,Tandoori Roti,Breads,30.0,47,True
+1301,40,Paneer Butter Masala,Main Course,245.0,117,True
+1302,40,Butter Chicken,Main Course,315.0,60,False
+1303,40,Jeera Rice,Rice,140.0,114,True
+1304,40,Butter Naan,Breads,50.0,35,True
+1305,40,Paneer Tikka,Starters,215.0,109,True
+1306,40,Sweet Lassi,Beverages,80.0,144,True
+1307,41,Tiramisu,Desserts,245.0,64,True
+1308,41,Margherita Pizza,Pizza,375.0,127,True
+1309,41,Garlic Bread,Sides,165.0,124,True
+1310,41,Bruschetta,Starters,195.0,24,True
+1311,41,Chicken Alfredo,Pasta,460.0,76,False
+1312,41,Spaghetti Aglio Olio,Pasta,305.0,69,True
+1313,42,Solkadhi,Beverages,65.0,24,True
+1314,42,Bombil Fry,Seafood,260.0,41,False
+1315,42,Kombdi Vade,Main Course,310.0,96,False
+1316,42,Neer Dosa,Breads,85.0,94,True
+1317,42,Chicken Sukka,Main Course,325.0,42,False
+1318,42,Surmai Fry,Seafood,365.0,87,False
+1319,42,Prawns Koliwada,Seafood,315.0,131,False
+1320,43,Dim Sum Basket,Starters,290.0,41,False
+1321,43,Hot and Sour Soup,Soups,145.0,146,True
+1322,43,Veg Hakka Noodles,Noodles,175.0,74,True
+1323,43,Chicken Fried Rice,Rice,230.0,82,False
+1324,43,Veg Manchurian,Starters,215.0,92,True
+1325,43,Schezwan Fried Rice,Rice,200.0,28,True
+1326,43,Spring Rolls,Starters,180.0,94,True
+1327,44,Dim Sum Basket,Starters,265.0,114,False
+1328,44,Veg Hakka Noodles,Noodles,215.0,56,True
+1329,44,Spring Rolls,Starters,215.0,72,True
+1330,44,Veg Manchurian,Starters,195.0,150,True
+1331,44,Chilli Chicken,Starters,320.0,149,False
+1332,44,Chicken Fried Rice,Rice,285.0,72,False
+1333,45,Fish Curry Rice,Main Course,355.0,31,False
+1334,45,Solkadhi,Beverages,70.0,75,True
+1335,45,Neer Dosa,Breads,90.0,96,True
+1336,45,Chicken Sukka,Main Course,370.0,68,False
+1337,45,Surmai Fry,Seafood,500.0,70,False
+1338,46,Chicken Croissant,Bakery,250.0,72,False
+1339,46,Avocado Toast,Breakfast,335.0,140,True
+1340,46,Cafe Latte,Coffee,215.0,97,True
+1341,46,Club Sandwich,Sandwiches,265.0,123,False
+1342,46,Belgian Waffle,Desserts,230.0,30,True
+1343,46,Cold Brew,Coffee,230.0,66,True
+1344,47,Spring Rolls,Starters,170.0,111,True
+1345,47,Veg Hakka Noodles,Noodles,180.0,75,True
+1346,47,Veg Manchurian,Starters,200.0,113,True
+1347,47,Dim Sum Basket,Starters,230.0,25,False
+1348,47,Schezwan Fried Rice,Rice,180.0,92,True
+1349,47,Chilli Chicken,Starters,255.0,144,False
+1350,47,Chicken Hakka Noodles,Noodles,245.0,150,False
+1351,47,Chicken Fried Rice,Rice,205.0,136,False
+1352,47,Hot and Sour Soup,Soups,135.0,124,True
+1353,48,Medu Vada,Breakfast,70.0,119,True
+1354,48,Masala Dosa,Dosa,105.0,69,True
+1355,48,Pongal,Breakfast,90.0,130,True
+1356,48,Rava Uttapam,Dosa,115.0,149,True
+1357,48,Mysore Masala Dosa,Dosa,145.0,23,True
+1358,48,Idli Sambar,Breakfast,70.0,41,True
+1359,49,Belgian Chocolate Shake,Shakes,245.0,83,True
+1360,49,Blueberry Cheesecake,Pastries,245.0,30,True
+1361,49,Mango Mastani,Shakes,195.0,120,True
+1362,49,Rasmalai,Indian Sweets,120.0,34,True
+1363,49,Kulfi Falooda,Desserts,185.0,71,True
+1364,49,Chocolate Truffle Cake,Cakes,525.0,56,True
+1365,50,Curd Rice,Rice,125.0,92,True
+1366,50,Lemon Rice,Rice,130.0,67,True
+1367,50,Pongal,Breakfast,105.0,60,True
+1368,50,Masala Dosa,Dosa,140.0,138,True
+1369,50,Rava Uttapam,Dosa,125.0,47,True
+1370,50,Medu Vada,Breakfast,85.0,76,True
+1371,50,Mysore Masala Dosa,Dosa,165.0,31,True
+1372,51,Tiramisu,Desserts,250.0,42,True
+1373,51,Bruschetta,Starters,205.0,115,True
+1374,51,Garlic Bread,Sides,175.0,103,True
+1375,51,Spaghetti Aglio Olio,Pasta,395.0,72,True
+1376,51,Pepperoni Pizza,Pizza,450.0,109,False
+1377,51,Margherita Pizza,Pizza,385.0,118,True
+1378,51,Chicken Alfredo,Pasta,475.0,80,False
+1379,52,Rasmalai,Indian Sweets,100.0,99,True
+1380,52,Brownie with Ice Cream,Desserts,175.0,40,True
+1381,52,Red Velvet Pastry,Pastries,115.0,70,True
+1382,52,Belgian Chocolate Shake,Shakes,180.0,149,True
+1383,52,Kulfi Falooda,Desserts,135.0,137,True
+1384,52,Chocolate Truffle Cake,Cakes,350.0,102,True
+1385,52,Blueberry Cheesecake,Pastries,215.0,78,True
+1386,52,Mango Mastani,Shakes,160.0,60,True
+1387,53,Spring Rolls,Starters,155.0,24,True
+1388,53,Veg Hakka Noodles,Noodles,210.0,91,True
+1389,53,Schezwan Fried Rice,Rice,205.0,142,True
+1390,53,Veg Manchurian,Starters,230.0,137,True
+1391,53,Chicken Hakka Noodles,Noodles,260.0,98,False
+1392,53,Chicken Fried Rice,Rice,265.0,20,False
+1393,54,Egg Biryani,Biryani,235.0,132,False
+1394,54,Mirchi Ka Salan,Sides,85.0,36,True
+1395,54,Raita,Sides,70.0,46,True
+1396,54,Veg Biryani,Biryani,225.0,139,True
+1397,54,Paneer Biryani,Biryani,270.0,32,True
+1398,54,Chicken Dum Biryani,Biryani,295.0,93,False
+1399,54,Mutton Biryani,Biryani,440.0,110,False
+1400,54,Chicken 65,Starters,295.0,25,False
+1401,55,Paneer Butter Masala,Main Course,270.0,107,True
+1402,55,Sweet Lassi,Beverages,85.0,28,True
+1403,55,Dal Makhani,Main Course,230.0,86,True
+1404,55,Gulab Jamun,Desserts,75.0,108,True
+1405,55,Butter Naan,Breads,40.0,71,True
+1406,55,Jeera Rice,Rice,140.0,62,True
+1407,55,Tandoori Roti,Breads,30.0,150,True
+1408,55,Butter Chicken,Main Course,285.0,116,False
+1409,55,Paneer Tikka,Starters,220.0,119,True
+1410,55,Chole Bhature,Main Course,155.0,140,True
+1411,55,Chicken Tikka,Starters,295.0,139,False
+1412,56,Dabeli,Snacks,35.0,67,True
+1413,56,Sev Puri,Chaat,60.0,32,True
+1414,56,Pani Puri,Chaat,60.0,138,True
+1415,56,Cutting Chai,Beverages,20.0,57,True
+1416,56,Misal Pav,Main Course,105.0,76,True
+1417,56,Pav Bhaji,Main Course,110.0,69,True
+1418,56,Ragda Pattice,Chaat,75.0,88,True
+1419,57,Chicken Alfredo,Pasta,425.0,71,False
+1420,57,Spaghetti Aglio Olio,Pasta,345.0,78,True
+1421,57,Bruschetta,Starters,215.0,116,True
+1422,57,Penne Arrabbiata,Pasta,330.0,132,True
+1423,57,Garlic Bread,Sides,155.0,54,True
+1424,57,Pepperoni Pizza,Pizza,540.0,61,False
+1425,57,Margherita Pizza,Pizza,365.0,128,True
+1426,57,Tiramisu,Desserts,295.0,120,True
+1427,58,Misal Pav,Main Course,110.0,135,True
+1428,58,Cutting Chai,Beverages,20.0,27,True
+1429,58,Pav Bhaji,Main Course,170.0,93,True
+1430,58,Pani Puri,Chaat,70.0,31,True
+1431,58,Sev Puri,Chaat,85.0,107,True
+1432,58,Vada Pav,Snacks,30.0,74,True
+1433,58,Ragda Pattice,Chaat,95.0,49,True
+1434,59,Egg Biryani,Biryani,230.0,138,False
+1435,59,Double Ka Meetha,Desserts,120.0,117,True
+1436,59,Chicken Dum Biryani,Biryani,280.0,129,False
+1437,59,Mirchi Ka Salan,Sides,90.0,90,True
+1438,59,Mutton Biryani,Biryani,325.0,38,False
+1439,59,Chicken 65,Starters,250.0,130,False
+1440,59,Raita,Sides,55.0,143,True
+1441,59,Paneer Biryani,Biryani,295.0,72,True
+1442,60,Paneer Butter Masala,Main Course,310.0,86,True
+1443,60,Jeera Rice,Rice,155.0,123,True
+1444,60,Gulab Jamun,Desserts,105.0,75,True
+1445,60,Paneer Tikka,Starters,240.0,88,True
+1446,60,Tandoori Roti,Breads,35.0,68,True
+1447,60,Chole Bhature,Main Course,215.0,93,True
+1448,60,Dal Makhani,Main Course,210.0,129,True
+1449,60,Sweet Lassi,Beverages,85.0,57,True
+1450,60,Butter Naan,Breads,60.0,32,True
+1451,60,Butter Chicken,Main Course,400.0,50,False
+1452,61,Mutton Biryani,Biryani,405.0,47,False
+1453,61,Paneer Biryani,Biryani,330.0,20,True
+1454,61,Raita,Sides,70.0,43,True
+1455,61,Chicken 65,Starters,260.0,96,False
+1456,61,Veg Biryani,Biryani,260.0,101,True
+1457,61,Chicken Dum Biryani,Biryani,290.0,71,False
+1458,61,Double Ka Meetha,Desserts,115.0,51,True
+1459,62,Classic Veg Burger,Burgers,135.0,49,True
+1460,62,Double Smash Burger,Burgers,265.0,56,False
+1461,62,Peri Peri Fries,Sides,105.0,52,True
+1462,62,Loaded Nachos,Sides,175.0,114,True
+1463,62,Oreo Shake,Shakes,135.0,86,True
+1464,62,Chicken Wings,Sides,230.0,52,False
+1465,62,Crispy Chicken Burger,Burgers,180.0,67,False
+1466,62,Paneer Tikka Burger,Burgers,165.0,36,True
+1467,63,Peri Peri Fries,Sides,150.0,56,True
+1468,63,Crispy Chicken Burger,Burgers,195.0,37,False
+1469,63,Classic Veg Burger,Burgers,145.0,73,True
+1470,63,Chicken Wings,Sides,280.0,66,False
+1471,63,Paneer Tikka Burger,Burgers,185.0,45,True
+1472,63,Double Smash Burger,Burgers,310.0,116,False
+1473,64,Tandoori Roti,Breads,25.0,84,True
+1474,64,Gulab Jamun,Desserts,70.0,149,True
+1475,64,Butter Naan,Breads,50.0,35,True
+1476,64,Paneer Butter Masala,Main Course,260.0,26,True
+1477,64,Paneer Tikka,Starters,245.0,108,True
+1478,64,Sweet Lassi,Beverages,80.0,57,True
+1479,64,Dal Makhani,Main Course,215.0,60,True
+1480,64,Chole Bhature,Main Course,180.0,106,True
+1481,64,Butter Chicken,Main Course,265.0,79,False
+1482,64,Jeera Rice,Rice,130.0,92,True
+1483,65,Mysore Masala Dosa,Dosa,125.0,29,True
+1484,65,Rava Uttapam,Dosa,125.0,117,True
+1485,65,Lemon Rice,Rice,115.0,131,True
+1486,65,Idli Sambar,Breakfast,85.0,137,True
+1487,65,Filter Coffee,Beverages,40.0,20,True
+1488,65,Masala Dosa,Dosa,115.0,126,True
+1489,66,Double Ka Meetha,Desserts,100.0,131,True
+1490,66,Raita,Sides,55.0,25,True
+1491,66,Chicken Dum Biryani,Biryani,255.0,72,False
+1492,66,Veg Biryani,Biryani,200.0,119,True
+1493,66,Paneer Biryani,Biryani,255.0,59,True
+1494,66,Egg Biryani,Biryani,250.0,120,False
+1495,66,Mutton Biryani,Biryani,335.0,43,False
+1496,66,Mirchi Ka Salan,Sides,85.0,115,True
+1497,66,Chicken 65,Starters,285.0,103,False
+1498,67,Veg Manchurian,Starters,240.0,99,True
+1499,67,Dim Sum Basket,Starters,285.0,57,False
+1500,67,Spring Rolls,Starters,170.0,26,True
+1501,67,Chicken Hakka Noodles,Noodles,250.0,89,False
+1502,67,Schezwan Fried Rice,Rice,250.0,88,True
+1503,67,Chilli Chicken,Starters,290.0,51,False
+1504,67,Chicken Fried Rice,Rice,240.0,143,False
+1505,68,Schezwan Fried Rice,Rice,190.0,111,True
+1506,68,Chilli Chicken,Starters,255.0,119,False
+1507,68,Veg Hakka Noodles,Noodles,160.0,86,True
+1508,68,Chicken Fried Rice,Rice,195.0,40,False
+1509,68,Veg Manchurian,Starters,180.0,34,True
+1510,68,Dim Sum Basket,Starters,285.0,78,False
+1511,69,Classic Veg Burger,Burgers,170.0,88,True
+1512,69,Paneer Tikka Burger,Burgers,160.0,125,True
+1513,70,Medu Vada,Breakfast,80.0,136,True
+1514,70,Lemon Rice,Rice,105.0,27,True
+1515,70,Curd Rice,Rice,105.0,73,True
+1516,70,Pongal,Breakfast,105.0,68,True
+1517,70,Masala Dosa,Dosa,105.0,141,True
+1518,70,Mysore Masala Dosa,Dosa,155.0,20,True
+1519,71,Chocolate Truffle Cake,Cakes,400.0,53,True
+1520,71,Kulfi Falooda,Desserts,165.0,118,True
+1521,71,Blueberry Cheesecake,Pastries,200.0,106,True
+1522,71,Red Velvet Pastry,Pastries,120.0,105,True
+1523,71,Brownie with Ice Cream,Desserts,165.0,116,True
+1524,72,Penne Arrabbiata,Pasta,350.0,83,True
+1525,72,Tiramisu,Desserts,260.0,71,True
+1526,72,Margherita Pizza,Pizza,310.0,150,True
+1527,72,Bruschetta,Starters,230.0,26,True
+1528,72,Farmhouse Pizza,Pizza,415.0,118,True
+1529,72,Chicken Alfredo,Pasta,450.0,129,False
+1530,72,Spaghetti Aglio Olio,Pasta,345.0,88,True
+1531,72,Garlic Bread,Sides,150.0,47,True
+1532,72,Pepperoni Pizza,Pizza,550.0,133,False
+1533,73,Spaghetti Aglio Olio,Pasta,340.0,60,True
+1534,73,Tiramisu,Desserts,295.0,48,True
+1535,73,Margherita Pizza,Pizza,375.0,56,True
+1536,73,Garlic Bread,Sides,165.0,39,True
+1537,73,Pepperoni Pizza,Pizza,500.0,138,False
+1538,73,Chicken Alfredo,Pasta,445.0,54,False
+1539,73,Penne Arrabbiata,Pasta,370.0,73,True
+1540,74,Belgian Chocolate Shake,Shakes,225.0,56,True
+1541,74,Rasmalai,Indian Sweets,115.0,30,True
+1542,74,Blueberry Cheesecake,Pastries,210.0,133,True
+1543,74,Brownie with Ice Cream,Desserts,185.0,91,True
+1544,74,Kulfi Falooda,Desserts,155.0,111,True
+1545,74,Red Velvet Pastry,Pastries,150.0,119,True
+1546,74,Chocolate Truffle Cake,Cakes,540.0,86,True
+1547,74,Mango Mastani,Shakes,195.0,90,True
+1548,75,Misal Pav,Main Course,125.0,76,True
+1549,75,Ragda Pattice,Chaat,80.0,83,True
+1550,75,Sev Puri,Chaat,75.0,33,True
+1551,75,Cutting Chai,Beverages,15.0,70,True
+1552,75,Vada Pav,Snacks,25.0,80,True
+1553,75,Bombay Sandwich,Snacks,80.0,98,True
+1554,75,Pani Puri,Chaat,60.0,66,True
+1555,75,Dabeli,Snacks,40.0,59,True
+1556,76,Chicken Dum Biryani,Biryani,295.0,30,False
+1557,76,Mirchi Ka Salan,Sides,90.0,103,True
+1558,76,Egg Biryani,Biryani,190.0,91,False
+1559,76,Paneer Biryani,Biryani,215.0,140,True
+1560,76,Veg Biryani,Biryani,225.0,97,True
+1561,76,Mutton Biryani,Biryani,360.0,70,False
+1562,77,Chicken Korma,Main Course,275.0,35,False
+1563,77,Nalli Nihari,Main Course,395.0,110,False
+1564,77,Mutton Galouti Kebab,Kebabs,300.0,24,False
+1565,77,Chicken Seekh Kebab,Kebabs,265.0,145,False
+1566,77,Shahi Paneer,Main Course,280.0,64,True
+1567,78,Pav Bhaji,Main Course,125.0,77,True
+1568,78,Ragda Pattice,Chaat,85.0,134,True
+1569,78,Sev Puri,Chaat,80.0,146,True
+1570,78,Bombay Sandwich,Snacks,90.0,87,True
+1571,78,Dabeli,Snacks,45.0,105,True
+1572,78,Misal Pav,Main Course,100.0,60,True
+1573,78,Vada Pav,Snacks,35.0,144,True
+1574,78,Cutting Chai,Beverages,25.0,112,True
+1575,78,Pani Puri,Chaat,55.0,44,True
+1576,79,Chicken Tikka,Starters,325.0,48,False
+1577,79,Jeera Rice,Rice,170.0,83,True
+1578,79,Sweet Lassi,Beverages,85.0,49,True
+1579,79,Butter Naan,Breads,50.0,99,True
+1580,79,Dal Makhani,Main Course,250.0,135,True
+1581,79,Butter Chicken,Main Course,320.0,54,False
+1582,79,Paneer Butter Masala,Main Course,275.0,148,True
+1583,79,Tandoori Roti,Breads,35.0,133,True
+1584,79,Chole Bhature,Main Course,210.0,148,True
+1585,79,Gulab Jamun,Desserts,95.0,97,True
+1586,80,Chole Bhature,Main Course,190.0,136,True
+1587,80,Dal Makhani,Main Course,270.0,58,True
+1588,80,Paneer Tikka,Starters,270.0,124,True
+1589,80,Gulab Jamun,Desserts,90.0,87,True
+1590,80,Sweet Lassi,Beverages,105.0,60,True
+1591,80,Tandoori Roti,Breads,30.0,134,True
+1592,80,Butter Naan,Breads,55.0,144,True
+1593,81,Blueberry Muffin,Bakery,140.0,77,True
+1594,81,Club Sandwich,Sandwiches,260.0,41,False
+1595,81,Avocado Toast,Breakfast,310.0,139,True
+1596,81,Iced Tea,Beverages,170.0,139,True
+1597,81,Chicken Croissant,Bakery,240.0,94,False
+1598,81,Cappuccino,Coffee,190.0,58,True
+1599,81,Cafe Latte,Coffee,220.0,60,True
+1600,82,Cappuccino,Coffee,195.0,50,True
+1601,82,Blueberry Muffin,Bakery,150.0,47,True
+1602,82,Cold Brew,Coffee,205.0,90,True
+1603,82,Belgian Waffle,Desserts,225.0,22,True
+1604,82,Avocado Toast,Breakfast,305.0,23,True
+1605,82,Iced Tea,Beverages,140.0,38,True
+1606,82,Club Sandwich,Sandwiches,235.0,45,False
+1607,82,Chicken Croissant,Bakery,255.0,68,False
+1608,82,Cafe Latte,Coffee,180.0,78,True
+1609,83,Chicken 65,Starters,250.0,75,False
+1610,83,Raita,Sides,65.0,51,True
+1611,83,Chicken Dum Biryani,Biryani,275.0,133,False
+1612,83,Mirchi Ka Salan,Sides,85.0,69,True
+1613,83,Egg Biryani,Biryani,220.0,66,False
+1614,83,Double Ka Meetha,Desserts,125.0,38,True
+1615,84,Mysore Masala Dosa,Dosa,145.0,28,True
+1616,84,Rava Uttapam,Dosa,120.0,130,True
+1617,84,Medu Vada,Breakfast,80.0,92,True
+1618,84,Pongal,Breakfast,110.0,75,True
+1619,84,Idli Sambar,Breakfast,85.0,146,True
+1620,84,Filter Coffee,Beverages,50.0,128,True
+1621,85,Vada Pav,Snacks,30.0,136,True
+1622,85,Cutting Chai,Beverages,15.0,65,True
+1623,85,Ragda Pattice,Chaat,80.0,135,True
+1624,85,Pav Bhaji,Main Course,135.0,65,True
+1625,85,Dabeli,Snacks,40.0,125,True
+1626,85,Sev Puri,Chaat,65.0,140,True
+1627,85,Misal Pav,Main Course,110.0,63,True
+1628,86,Pepperoni Pizza,Pizza,555.0,106,False
+1629,86,Bruschetta,Starters,215.0,30,True
+1630,86,Garlic Bread,Sides,155.0,39,True
+1631,86,Tiramisu,Desserts,290.0,74,True
+1632,86,Farmhouse Pizza,Pizza,385.0,145,True
+1633,86,Penne Arrabbiata,Pasta,430.0,69,True
+1634,87,Spring Rolls,Starters,185.0,96,True
+1635,87,Veg Hakka Noodles,Noodles,215.0,62,True
+1636,87,Chicken Hakka Noodles,Noodles,255.0,62,False
+1637,87,Dim Sum Basket,Starters,340.0,92,False
+1638,87,Veg Manchurian,Starters,220.0,148,True
+1639,87,Schezwan Fried Rice,Rice,225.0,82,True
+1640,87,Hot and Sour Soup,Soups,175.0,149,True
+1641,87,Chilli Chicken,Starters,325.0,63,False
+1642,87,Chicken Fried Rice,Rice,250.0,139,False
+1643,88,Crispy Chicken Burger,Burgers,190.0,105,False
+1644,88,Oreo Shake,Shakes,175.0,113,True
+1645,88,Peri Peri Fries,Sides,110.0,109,True
+1646,88,Classic Veg Burger,Burgers,150.0,29,True
+1647,88,Loaded Nachos,Sides,215.0,106,True
+1648,88,Double Smash Burger,Burgers,290.0,137,False
+1649,88,Paneer Tikka Burger,Burgers,215.0,46,True
+1650,89,Chicken Seekh Kebab,Kebabs,300.0,128,False
+1651,89,Nalli Nihari,Main Course,380.0,42,False
+1652,89,Rumali Roti,Breads,40.0,135,True
+1653,89,Chicken Korma,Main Course,290.0,145,False
+1654,89,Mutton Galouti Kebab,Kebabs,395.0,53,False
+1655,89,Haleem,Main Course,315.0,103,False
+1656,90,Idli Sambar,Breakfast,80.0,85,True
+1657,90,Lemon Rice,Rice,145.0,52,True
+1658,90,Filter Coffee,Beverages,55.0,25,True
+1659,90,Pongal,Breakfast,110.0,20,True
+1660,90,Rava Uttapam,Dosa,125.0,146,True
+1661,90,Curd Rice,Rice,110.0,118,True
+1662,91,Dabeli,Snacks,40.0,52,True
+1663,91,Misal Pav,Main Course,105.0,39,True
+1664,91,Pani Puri,Chaat,55.0,63,True
+1665,91,Cutting Chai,Beverages,20.0,78,True
+1666,91,Ragda Pattice,Chaat,90.0,150,True
+1667,91,Sev Puri,Chaat,65.0,121,True
+1668,92,Raita,Sides,55.0,91,True
+1669,92,Paneer Biryani,Biryani,250.0,99,True
+1670,92,Veg Biryani,Biryani,205.0,29,True
+1671,93,Lemon Rice,Rice,130.0,101,True
+1672,93,Pongal,Breakfast,125.0,29,True
+1673,93,Curd Rice,Rice,115.0,149,True
+1674,93,Rava Uttapam,Dosa,140.0,89,True
+1675,93,Idli Sambar,Breakfast,85.0,27,True
+1676,93,Filter Coffee,Beverages,45.0,70,True
+1677,93,Mysore Masala Dosa,Dosa,160.0,104,True
+1678,94,Tandoori Roti,Breads,30.0,67,True
+1679,94,Paneer Tikka,Starters,235.0,46,True
+1680,94,Gulab Jamun,Desserts,85.0,95,True
+1681,94,Paneer Butter Masala,Main Course,255.0,97,True
+1682,94,Butter Naan,Breads,55.0,130,True
+1683,94,Chole Bhature,Main Course,190.0,110,True
+1684,94,Sweet Lassi,Beverages,95.0,25,True
+1685,94,Jeera Rice,Rice,185.0,118,True
+1686,95,Paneer Butter Masala,Main Course,245.0,77,True
+1687,95,Tandoori Roti,Breads,30.0,56,True
+1688,95,Paneer Tikka,Starters,230.0,115,True
+1689,95,Chicken Tikka,Starters,290.0,147,False
+1690,95,Gulab Jamun,Desserts,90.0,89,True
+1691,95,Sweet Lassi,Beverages,75.0,95,True
+1692,95,Chole Bhature,Main Course,150.0,140,True
+1693,95,Jeera Rice,Rice,155.0,36,True
+1694,95,Butter Chicken,Main Course,315.0,23,False
+1695,96,Sev Puri,Chaat,60.0,82,True
+1696,96,Ragda Pattice,Chaat,80.0,37,True
+1697,96,Vada Pav,Snacks,30.0,65,True
+1698,96,Bombay Sandwich,Snacks,90.0,132,True
+1699,96,Dabeli,Snacks,40.0,142,True
+1700,96,Pani Puri,Chaat,55.0,137,True
+1701,96,Cutting Chai,Beverages,20.0,34,True
+1702,96,Pav Bhaji,Main Course,120.0,71,True
+1703,96,Misal Pav,Main Course,120.0,99,True
+1704,97,Chicken Dum Biryani,Biryani,275.0,21,False
+1705,97,Veg Biryani,Biryani,235.0,71,True
+1706,97,Mutton Biryani,Biryani,390.0,29,False
+1707,97,Egg Biryani,Biryani,255.0,25,False
+1708,97,Double Ka Meetha,Desserts,125.0,111,True
+1709,97,Raita,Sides,65.0,46,True
+1710,97,Chicken 65,Starters,245.0,80,False
+1711,98,Phirni,Desserts,125.0,145,True
+1712,98,Rumali Roti,Breads,45.0,104,True
+1713,98,Shahi Paneer,Main Course,280.0,128,True
+1714,98,Chicken Korma,Main Course,295.0,41,False
+1715,98,Chicken Seekh Kebab,Kebabs,310.0,82,False
+1716,98,Nalli Nihari,Main Course,480.0,26,False
+1717,98,Haleem,Main Course,355.0,28,False
+1718,99,Butter Chicken,Main Course,365.0,142,False
+1719,99,Sweet Lassi,Beverages,85.0,146,True
+1720,99,Dal Makhani,Main Course,245.0,42,True
+1721,99,Paneer Tikka,Starters,250.0,137,True
+1722,99,Chole Bhature,Main Course,210.0,34,True
+1723,99,Jeera Rice,Rice,190.0,116,True
+1724,99,Chicken Tikka,Starters,300.0,84,False
+1725,99,Tandoori Roti,Breads,35.0,41,True
+1726,100,Bombil Fry,Seafood,320.0,91,False
+1727,100,Surmai Fry,Seafood,445.0,69,False
+1728,100,Neer Dosa,Breads,90.0,112,True
+1729,100,Fish Curry Rice,Main Course,360.0,123,False
+1730,100,Prawns Koliwada,Seafood,335.0,37,False
+1731,100,Solkadhi,Beverages,80.0,130,True
+1732,100,Kombdi Vade,Main Course,305.0,97,False
+1733,100,Chicken Sukka,Main Course,310.0,88,False
+1734,101,Penne Arrabbiata,Pasta,340.0,147,True
+1735,101,Chicken Alfredo,Pasta,395.0,103,False
+1736,101,Margherita Pizza,Pizza,375.0,78,True
+1737,101,Bruschetta,Starters,180.0,120,True
+1738,101,Pepperoni Pizza,Pizza,510.0,71,False
+1739,101,Tiramisu,Desserts,270.0,70,True
+1740,101,Spaghetti Aglio Olio,Pasta,290.0,48,True
+1741,101,Farmhouse Pizza,Pizza,360.0,34,True
+1742,101,Garlic Bread,Sides,165.0,149,True
+1743,102,Paneer Butter Masala,Main Course,215.0,63,True
+1744,102,Sweet Lassi,Beverages,75.0,72,True
+1745,102,Tandoori Roti,Breads,30.0,57,True
+1746,102,Jeera Rice,Rice,170.0,144,True
+1747,102,Chole Bhature,Main Course,175.0,121,True
+1748,102,Paneer Tikka,Starters,220.0,72,True
+1749,102,Chicken Tikka,Starters,295.0,45,False
+1750,102,Gulab Jamun,Desserts,90.0,118,True
+1751,103,Grilled Chicken Bowl,Bowls,325.0,82,False
+1752,103,Greek Salad,Salads,315.0,141,True
+1753,103,Quinoa Salad Bowl,Salads,295.0,85,True
+1754,103,Millet Khichdi,Main Course,220.0,96,True
+1755,103,Hummus Platter,Starters,230.0,137,True
+1756,103,Paneer Protein Bowl,Bowls,295.0,26,True
+1757,103,Acai Smoothie Bowl,Breakfast,410.0,112,True
+1758,103,Detox Juice,Beverages,175.0,134,True
+1759,104,Rava Uttapam,Dosa,110.0,40,True
+1760,104,Lemon Rice,Rice,100.0,70,True
+1761,104,Idli Sambar,Breakfast,70.0,123,True
+1762,104,Medu Vada,Breakfast,80.0,27,True
+1763,104,Pongal,Breakfast,95.0,81,True
+1764,104,Curd Rice,Rice,90.0,133,True
+1765,104,Mysore Masala Dosa,Dosa,145.0,85,True
+1766,105,Chole Bhature,Main Course,160.0,140,True
+1767,105,Butter Chicken,Main Course,335.0,61,False
+1768,105,Butter Naan,Breads,50.0,52,True
+1769,105,Sweet Lassi,Beverages,100.0,92,True
+1770,105,Chicken Tikka,Starters,330.0,51,False
+1771,105,Dal Makhani,Main Course,245.0,117,True
+1772,105,Tandoori Roti,Breads,35.0,146,True
+1773,105,Jeera Rice,Rice,155.0,57,True
+1774,105,Paneer Tikka,Starters,245.0,76,True
+1775,105,Gulab Jamun,Desserts,80.0,146,True
+1776,106,Veg Biryani,Biryani,275.0,33,True
+1777,106,Double Ka Meetha,Desserts,140.0,127,True
+1778,106,Mirchi Ka Salan,Sides,85.0,96,True
+1779,106,Chicken Dum Biryani,Biryani,335.0,136,False
+1780,106,Chicken 65,Starters,235.0,125,False
+1781,106,Egg Biryani,Biryani,265.0,142,False
+1782,106,Paneer Biryani,Biryani,315.0,59,True
+1783,107,Chicken 65,Starters,255.0,90,False
+1784,107,Egg Biryani,Biryani,260.0,100,False
+1785,107,Double Ka Meetha,Desserts,125.0,119,True
+1786,107,Mutton Biryani,Biryani,380.0,52,False
+1787,107,Paneer Biryani,Biryani,270.0,20,True
+1788,107,Veg Biryani,Biryani,255.0,48,True
+1789,107,Raita,Sides,60.0,104,True
+1790,108,Belgian Chocolate Shake,Shakes,220.0,55,True
+1791,108,Mango Mastani,Shakes,200.0,20,True
+1792,108,Kulfi Falooda,Desserts,150.0,115,True
+1793,108,Red Velvet Pastry,Pastries,140.0,96,True
+1794,108,Blueberry Cheesecake,Pastries,190.0,116,True
+1795,108,Chocolate Truffle Cake,Cakes,460.0,125,True
+1796,109,Filter Coffee,Beverages,45.0,78,True
+1797,109,Medu Vada,Breakfast,70.0,61,True
+1798,109,Curd Rice,Rice,110.0,66,True
+1799,109,Pongal,Breakfast,115.0,34,True
+1800,109,Lemon Rice,Rice,110.0,56,True
+1801,109,Mysore Masala Dosa,Dosa,145.0,150,True
+1802,109,Rava Uttapam,Dosa,140.0,84,True
+1803,109,Masala Dosa,Dosa,135.0,146,True
+1804,109,Idli Sambar,Breakfast,90.0,138,True
+1805,110,Loaded Nachos,Sides,175.0,77,True
+1806,110,Double Smash Burger,Burgers,245.0,145,False
+1807,110,Chicken Wings,Sides,255.0,34,False
+1808,110,Peri Peri Fries,Sides,130.0,50,True
+1809,110,Classic Veg Burger,Burgers,155.0,109,True
+1810,110,Oreo Shake,Shakes,145.0,91,True
+1811,111,Dabeli,Snacks,35.0,31,True
+1812,111,Misal Pav,Main Course,110.0,141,True
+1813,111,Bombay Sandwich,Snacks,90.0,24,True
+1814,111,Pani Puri,Chaat,45.0,29,True
+1815,111,Pav Bhaji,Main Course,120.0,63,True
+1816,111,Vada Pav,Snacks,30.0,91,True
+1817,111,Cutting Chai,Beverages,20.0,126,True
+1818,111,Ragda Pattice,Chaat,80.0,77,True
+1819,112,Misal Pav,Main Course,115.0,119,True
+1820,112,Pani Puri,Chaat,65.0,24,True
+1821,112,Cutting Chai,Beverages,20.0,29,True
+1822,112,Vada Pav,Snacks,25.0,37,True
+1823,112,Bombay Sandwich,Snacks,100.0,71,True
+1824,112,Sev Puri,Chaat,70.0,79,True
+1825,112,Dabeli,Snacks,40.0,90,True
+1826,112,Pav Bhaji,Main Course,130.0,77,True
+1827,113,Mutton Biryani,Biryani,345.0,135,False
+1828,113,Chicken 65,Starters,230.0,127,False
+1829,113,Chicken Dum Biryani,Biryani,300.0,70,False
+1830,113,Raita,Sides,55.0,144,True
+1831,113,Double Ka Meetha,Desserts,125.0,150,True
+1832,113,Egg Biryani,Biryani,265.0,36,False
+1833,113,Mirchi Ka Salan,Sides,90.0,135,True
+1834,113,Paneer Biryani,Biryani,315.0,23,True
+1835,114,Phirni,Desserts,125.0,54,True
+1836,114,Haleem,Main Course,310.0,144,False
+1837,114,Mutton Galouti Kebab,Kebabs,355.0,72,False
+1838,114,Nalli Nihari,Main Course,460.0,112,False
+1839,114,Rumali Roti,Breads,45.0,128,True
+1840,114,Shahi Paneer,Main Course,290.0,81,True
+1841,114,Chicken Korma,Main Course,330.0,109,False
+1842,114,Chicken Seekh Kebab,Kebabs,275.0,121,False
+1843,115,Double Ka Meetha,Desserts,130.0,94,True
+1844,115,Chicken Dum Biryani,Biryani,295.0,72,False
+1845,115,Mutton Biryani,Biryani,310.0,126,False
+1846,115,Veg Biryani,Biryani,255.0,103,True
+1847,115,Chicken 65,Starters,240.0,31,False
+1848,115,Raita,Sides,50.0,111,True
+1849,115,Paneer Biryani,Biryani,280.0,75,True
+1850,116,Dal Makhani,Main Course,200.0,139,True
+1851,116,Butter Chicken,Main Course,375.0,135,False
+1852,116,Tandoori Roti,Breads,30.0,113,True
+1853,116,Chole Bhature,Main Course,185.0,54,True
+1854,116,Butter Naan,Breads,55.0,125,True
+1855,116,Chicken Tikka,Starters,275.0,120,False
+1856,116,Sweet Lassi,Beverages,100.0,99,True
+1857,116,Gulab Jamun,Desserts,95.0,86,True
+1858,116,Paneer Tikka,Starters,290.0,85,True
+1859,117,Iced Tea,Beverages,160.0,122,True
+1860,117,Cafe Latte,Coffee,175.0,102,True
+1861,117,Avocado Toast,Breakfast,275.0,65,True
+1862,117,Blueberry Muffin,Bakery,135.0,102,True
+1863,117,Cold Brew,Coffee,225.0,88,True
+1864,117,Belgian Waffle,Desserts,215.0,142,True
+1865,117,Club Sandwich,Sandwiches,265.0,39,False
+1866,118,Cutting Chai,Beverages,20.0,67,True
+1867,118,Bombay Sandwich,Snacks,105.0,130,True
+1868,118,Pani Puri,Chaat,60.0,46,True
+1869,118,Misal Pav,Main Course,115.0,87,True
+1870,118,Ragda Pattice,Chaat,110.0,66,True
+1871,118,Pav Bhaji,Main Course,145.0,52,True
+1872,118,Sev Puri,Chaat,75.0,130,True
+1873,118,Dabeli,Snacks,40.0,81,True
+1874,119,Dim Sum Basket,Starters,305.0,38,False
+1875,119,Chicken Hakka Noodles,Noodles,210.0,26,False
+1876,119,Veg Manchurian,Starters,215.0,111,True
+1877,119,Spring Rolls,Starters,210.0,110,True
+1878,119,Veg Hakka Noodles,Noodles,190.0,53,True
+1879,119,Chilli Chicken,Starters,245.0,102,False
+1880,120,Dim Sum Basket,Starters,290.0,104,False
+1881,120,Veg Hakka Noodles,Noodles,190.0,54,True
+1882,120,Chicken Fried Rice,Rice,225.0,30,False
+1883,120,Spring Rolls,Starters,145.0,20,True
+1884,120,Schezwan Fried Rice,Rice,210.0,95,True
+1885,120,Chilli Chicken,Starters,235.0,42,False
+1886,120,Chicken Hakka Noodles,Noodles,225.0,89,False
+1887,120,Veg Manchurian,Starters,175.0,54,True

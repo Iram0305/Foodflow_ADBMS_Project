@@ -1,0 +1,12 @@
+CREATE INDEX IF NOT EXISTS idx_orders_customer ON orders(customer_id);
+CREATE INDEX IF NOT EXISTS idx_orders_restaurant ON orders(restaurant_id);
+CREATE INDEX IF NOT EXISTS idx_orders_time ON orders(order_time);
+CREATE INDEX IF NOT EXISTS idx_orders_status ON orders(status);
+CREATE INDEX IF NOT EXISTS idx_menu_restaurant ON menu_item(restaurant_id);
+CREATE INDEX IF NOT EXISTS idx_order_item_item ON order_item(item_id);
+CREATE INDEX IF NOT EXISTS idx_history_order ON order_status_history(order_id);
+CREATE INDEX IF NOT EXISTS idx_price_history_item ON menu_price_history(item_id, valid_from);
+CREATE INDEX IF NOT EXISTS idx_delivery_partner ON delivery(partner_id);
+CREATE INDEX IF NOT EXISTS idx_review_restaurant ON review(restaurant_id);
+CREATE INDEX IF NOT EXISTS idx_restaurant_location ON restaurant(latitude, longitude);
+CREATE INDEX IF NOT EXISTS idx_partner_location ON delivery_partner(latitude, longitude);
